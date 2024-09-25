@@ -1,0 +1,55 @@
+// seletor { 
+// propriedade: valor;
+// }
+
+// Seletor de Elemento/Tag - é quando usamos a propria tag como seletor
+h1 {
+    color: darkmagenta;
+}
+
+// Seletor de Classe - class ( . )
+.tituloBlue {
+    color: blue;
+}
+
+.tituloYellow {
+    color: rgb(180, 180, 2);
+}
+
+// Seletor de Identificador Unico - ID ( # )
+
+#tituloGreen {
+    color: green;
+}
+
+main {
+    border: solid 2px red;
+}
+
+.corVerde {
+    background-color: rgb(0, 138, 0);
+    color: white;
+}
+
+.corAzul {
+    background-color: blue;
+    color: white;
+}
+
+// Nesting - Aninhamento
+article {
+    background-color: rgb(172, 64, 64);
+
+    figure {
+        border: solid 3px blue;
+
+        img {
+            width: 655px;
+        }
+
+        figcaption {
+            color: white;
+            align-items: center;
+        }
+    }
+}
